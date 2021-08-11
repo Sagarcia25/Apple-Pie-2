@@ -20,6 +20,9 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func letterButtonPressed(_ sender: UIButton) {
+        sender.isEnabled = false
+    }
+    
 }
 
