@@ -24,7 +24,11 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        newRound()
+    }
+    
+    func newRound(){
+        
     }
 
     @IBAction func letterButtonPressed(_ sender: UIButton) {
