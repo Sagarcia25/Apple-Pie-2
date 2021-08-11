@@ -15,6 +15,13 @@ class ViewController: UIViewController {
     
     @IBOutlet var letterButtons: [UIButton]!
     
+    var listOfWords = ["venusaur","charizard","blastoise","meganium","typhlosion","feraligatr","sceptile","blaziken","swampert"]
+    
+    let incorrectMovesAllowed = 7
+    
+    var totalWins = 0
+    var totalLosses = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
