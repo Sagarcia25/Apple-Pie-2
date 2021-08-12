@@ -19,8 +19,16 @@ class ViewController: UIViewController {
     
     let incorrectMovesAllowed = 7
     
-    var totalWins = 0
-    var totalLosses = 0
+    var totalWins = 0{
+        didSet{
+            newRound()
+        }
+    }
+    var totalLosses = 0{
+        didSet{
+            newRound()
+        }
+    }
     
     var currentGame: Game!
     
